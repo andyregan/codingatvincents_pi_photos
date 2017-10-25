@@ -10,7 +10,7 @@ model, synsets = inception.load_inception_model()
 image = inception.load_image('images/image1.jpg')
 prob = inception.predict(image, model)
 topN = inception.get_top_categories(prob, synsets)
-print(topN)
+#print(topN)
 top1_message = inception.get_top1_message(topN)
 print(top1_message)
 
