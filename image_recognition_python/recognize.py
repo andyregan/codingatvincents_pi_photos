@@ -7,7 +7,7 @@ import inception
 model, synsets = inception.load_inception_model()
 
 # Detect image with MXNet
-image = inception.load_image('images/banana.jpg')
+image = inception.load_image('images/image1.jpg')
 prob = inception.predict(image, model)
 topN = inception.get_top_categories(prob, synsets)
 print(topN)
