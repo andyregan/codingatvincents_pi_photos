@@ -1,0 +1,6 @@
+ls -l # list all files in the current folder
+whereami # print the current folder 
+cd # move into the folder
+vim # open a file . Press i to edit. :wq to save and quit
+mkdir # create a folder
+which # print the path to the command
